@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+
+/* Geral da página */
+
+body {
+    background-color: #fff9ea;
+}
+
+h2 {
+    color: orange;
+   
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+    border: none;
+    padding: 10px 5px;
+    border-radius: 20px 15px;
+    font-weight: 500;
+    transition: .2s;
+    cursor: pointer;
+    
+}
+
+.btn-default {
+    background-color: rgb(240,191 ,76 );
+}
+
+.btn-default:hover {
+    background-color: rgb(250, 197, 92);
+}
+
+/*Criando o Header do site navbar...*/
+
+header {
+    width: 100%;
+    top: 0;
+    position: sticky;
+    background-color: #fff9ea;
+    padding: 28px 8%;
+    z-index: 3;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-navbar {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-item a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-item.active a {
+    border-bottom: 3px solid yellow;
+}
+
+#menu_mobile {
+    display: none;
+}
+
+#mobile_btn {
+    display: none;
+}
+
+#close_btn {
+    display: none;
+}
+
+#menu_mobile .abrir_menu #close_btn {
+    display: block;
+}
+
+#menu_mobile .abrir_menu #close_btn {
+    display: none;
+}
+
+ /*Isso para parte de navegação do site a parte do main */
+
+.title {
+   font-size: 3.5rem;
+   margin: 60px;
+   margin-bottom: 20px; 
+}
+
+.descricao {
+    font-size: 1.2rem;
+    padding: 40px;
+}
+
+span {
+    color: orange;
+    display: block;
+    flex-direction: column;
+}
+
+
+/*Estilizando os links*/
+
+.btn-ver-cardapio  {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: rgb(240,191 ,76 );
+    padding: 15px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 20px 15px;
+    
+}
+
+.telefone {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px 15px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Inicio {
+    display: flex;
+    justify-content: end;
+    z-index: 2;
+}
+
+.img-container {
+    border-radius: 20px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130%;
+    transition: .2s;
+}
+
+.prato-logo {
+    width: 500px;
+    height: 500px;
+    box-shadow: 8px 8px 8px black;
+    border-radius: 250px 250px 250px;   
+}
+
+
+/*Botões*/
+
+.botoes-redes-sociais  {
+    font-size: 25px;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+
+}
+
+.botoes-da-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ .botoes-redes-sociais a  {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 45px;
+   height: 40px;
+   background-color: #fff;
+   font-size: 1.25rem;
+   border-radius: 10px;
+   text-decoration: none;
+   color: #1d1d1d;
+   box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+   transition: box-shadow .3s ease;
+ }
+
+ .botoes-redes-sociais a:hover {
+    box-shadow: 0px 0px 12px 8px rgba(0,0,0,0.1);
+}
+
+.botaoWhatsapp {
+    width: 30px;
+    border-radius: 20px 20px;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+.botaoInstagram {
+    width: 30px;
+    border-radius: 20px 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.botaoFacebook {
+    width: 30px;
+    border-radius: 20px 20px;
+    text-align: center;
+    align-items: center;
+}
+
+/*Criando o menu cardapio do site.*/
+
+.titulo-sessao {
+    font-size: 1.563rem;
+    text-align: center;
+}
+
+.subtitulo-sessao {
+    font-size: 2.1875rem;
+    text-align: center;
+}
+
+.coracao-prato {
+    background-color: orange;
+}
+
+#Cardapio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.pratos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top:32px;
+}
+.prato {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 20px;
+   gap: 12px;
+   width: 25%;
+   position: relative;
+   padding: 28px;
+   background-color: white;
+   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+   overflow: hidden;
+}
+
+#star {
+    color: orange;
+}
+
+.descricao-prato {
+    color: black;
+}
+
+.avaliacoes {
+    color: black;
+}
+
+.coracao-prato {
+    position: absolute;
+    background-color: #e9a209;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.563rem;
+    color: #fff9ea;
+    width: 70px;
+    height: 70px;
+    right: -10px;
+    top: -10px;
+    border-radius: 0px 37.5px 0px 42.5px;
+}
+
+.prato-avaliacoes {
+    margin-top: 15px;
+}
+
+
+
+.preco-prato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+/*Parte de testemunhas do site*/
+
+.foto-chefe {
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 50px 50px 50px;
+    box-shadow: 5px 5px 5px black;
+} 
+
+#Avaliacoes {
+    margin: 15px;
+}
+
+.depoimentos-clientes {
+    font-size: 40px;
+}
+
+.btn-avaliacoes {
+    background-color: #e9a209;
+    transition: .2s;
+}
+
+.btn-avaliacoes:hover {
+    background-color: #f2b226;
+}
+
+
+#Avaliacoes {
+    min-height: calc(100vh - 91px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.feedbacks {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.feedback {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 12px; 
+    background-color: white;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.1);
+    
+}
+
+.feedback-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.feedback-content p {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #f5c151;
+    border-radius: 20px 10px 5px;
+}
+
+#itens_roda_pe {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+}
+
+#copyright {
+    color: black;
+    font-weight: 500;
+}
+
+
+
+/*Fazendo a responsividade do site*/
+
+@media screen and (max-width: 1020px) {
+
+    /*Desparecer o menu desktop */
+    .navbar, .list-navbar{
+       display: none;
+    }
+    /* Reaparecer o menu-mobile */
+    #menu_mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 70px 8%;
+    }
+
+    .navbar_mobile {
+        display: flex;
+        gap: 20px;
+        font-size: 12px;
+        
+    }
+
+    .nav-item {
+        font-size: 15px;
+        transition: .2s;
+    }
+
+    .nav-item:hover {
+        border-bottom: 3px solid yellow;
+    }
+
+    .btn-default {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+     div.nav-item {
+        list-style: none;
+    }
+
+/*Responsividade na área inicial da página.*/
+    .sessao-inicial {
+        min-height: 100vh;
+        margin-top: 0px;
+    }
+
+    .img-container,
+    img .img-container {
+        display: none;
+    }
+
+    .call-to-action {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pratos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .prato{
+    width: calc(50% - 12%);
+
+    }
+
+    .titulo-sessao {
+        margin-top: 35px;    
+    }
+
+    #testemunhas {
+        flex-direction: column;
+    }
+    #testemunhas .depoimentos-clientes {
+        text-align: center;
+        font-size: 2.3rem;
+    }
+    .foto-chefe {
+        display: none;
+    }
+
+    #testemunhas_content {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .btn-avaliacoes {
+        margin-bottom: 30px;
+    }
+
+    
+
+@media screen and (max-width:600px)  {
+    #testemunhas .depoimentos-clientes {
+        font-size: 1.9rem;
+    }
+
+    #testemunhas_content {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+       
+    }
+
+    .feedback {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .telefone button {
+        display: none;
+    }
+
+    .prato {
+        width: 90%;
+    }
+
+    #itens_roda_pe {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 8% 24px 8%;
+        flex-direction: column;
+        gap: 20px;
+    } 
+}
+}
