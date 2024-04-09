@@ -1,5 +1,7 @@
+<a href="https://fancy-travesseiro-5f2cff.netlify.app/" target="_blank">Clique aqui para ver o site!</a>
+
 <h1>Landing Page funcional com HTML, CSS e JavaScript </h1>
-<p>Neste projeto utilizei as 3 tecnologias básicas para um front-end, HMTL, CSS e JavaScript.
+<p>Neste projeto utilizei as 3 tecnologias básicas para um front-end: HMTL, CSS e JavaScript.
 Junto a isso adicionei uma biblioteca em JavaScript, chamada ScrollReveal para adicionar algumas animações que deixassem o site mais profissional, este site também é responsivo para qualquer tipo de dispositívo moóvel.</p>
 
 <h2>Sessão inicial do site:</h2>
