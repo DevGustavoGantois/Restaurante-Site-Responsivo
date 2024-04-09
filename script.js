@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    ScrollReveal().reveal('#Avaliacoes', {
+    ScrollReveal().reveal('.feedback', {
         origin: 'right',
         duration: 2000,
         distance: '10%'
