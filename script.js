@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    ScrollReveal().reveal('.menu-cardapio', {
+    ScrollReveal().reveal('#Cardapio', {
         origin: 'left',
         duration: 2000,
         distance: '10%'
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    ScrollReveal().reveal('.menu-cardapio', {
+    ScrollReveal().reveal('#Cardapio', {
         origin: 'left',
         duration: 2000,
         distance: '10%'
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    ScrollReveal().reveal('#testemunhas', {
+    ScrollReveal().reveal('#Avaliacoes', {
         origin: 'right',
         duration: 2000,
         distance: '10%'
