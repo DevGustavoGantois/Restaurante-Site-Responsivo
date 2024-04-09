@@ -490,6 +490,7 @@ footer {
 
     .btn-avaliacoes {
         margin-bottom: 30px;
+        color: black;
     }
 
     
@@ -509,6 +510,10 @@ footer {
     .feedback {
         flex-direction: column;
     }
+
+    #lixeira {
+        color: black;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -526,6 +531,14 @@ footer {
         padding: 0px 8% 24px 8%;
         flex-direction: column;
         gap: 20px;
-    } 
+    }
+
+    .btn-avaliacoes {
+        color: black;
+    }
+
+    #lixeira {
+        color: black;
+    }
 }
 }
