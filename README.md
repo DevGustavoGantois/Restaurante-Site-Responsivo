@@ -1,4 +1,4 @@
-<a href="https://whimsical-peony-f55d8e.netlify.app/" target="_blank">Clique aqui para ver o site!</a>
+<a href="https://sparkling-mermaid-4d5eb0.netlify.app/" target="_blank">Clique aqui para ver o site!</a>
 
 <h1>Landing Page funcional com HTML, CSS e JavaScript </h1>
 <p>Neste projeto utilizei as 3 tecnologias básicas para um front-end: HMTL, CSS e JavaScript.
